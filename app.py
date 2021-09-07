@@ -4,7 +4,7 @@ import	lasio
 st.title("Aplicación para registro de pozos ")
 st.sidebar.title("Menu")
 opciones_inicio = st.sidebar.radio("Selecione una opcion", ["inicio", "datos", "calculos"])
-archivo_las = lasio.read("LGAE-040.las")
+#archivo_las = lasio.read("LGAE-040.las")
 #df = archivo_las.df()
 #dt.write(df)
 
